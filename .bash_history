@@ -51,3 +51,48 @@ lll
 ll
 ls -al
 git status
+yum install git -y
+git --version
+ls -al
+cat vijay06
+git status
+date
+cal
+w
+uwho
+who i am
+git log
+ll
+ls -al
+git status
+git add .
+git commit "third" .
+git status
+git log
+ls -al
+clear
+touch suresh
+vim suresh
+cat suresh
+git add .
+git commit -m "fourth commit" .
+git log
+git status
+ll
+ls -al
+w
+whoiam
+date
+cal
+clear
+git remote add origin 
+clear
+git remote add origin https://github.com/vijayvijju26/DEVOPS.git
+ll
+git branch
+git push -u origin master
+ll
+git status
+git log
+ls -al
+sudo -i
