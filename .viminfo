@@ -10,11 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1647662313,,"wq!"
+:q!
+|2,0,1646551624,,"q!"
+:q
+|2,0,1646543978,,"q"
 :wq
-|2,0,1645711755,,"wq"
+|2,0,1646388774,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1646543958,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,56 +36,309 @@
 # Registers:
 
 # File marks:
-'0  1  24  ~/suresh
-|4,48,1,24,1645711755,"~/suresh"
-'1  1  18  ~/file3
-|4,49,1,18,1645696771,"~/file3"
-'2  2  0  ~/file2
-|4,50,2,0,1645696389,"~/file2"
-'3  1  34  ~/vijay06
-|4,51,1,34,1645695670,"~/vijay06"
+'0  2  14  ~/vijay1
+|4,48,2,14,1647662313,"~/vijay1"
+'1  1  0  /tmp/crontab.oge1JS
+|4,49,1,0,1646551624,"/tmp/crontab.oge1JS"
+'2  63  25  /etc/ssh/sshd_config
+|4,50,63,25,1646544102,"/etc/ssh/sshd_config"
+'3  8  0  /etc/ssh
+|4,51,8,0,1646543978,"/etc/ssh"
+'4  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,52,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+'5  9  0  ~/Desktop/file2
+|4,53,9,0,1646388774,"~/Desktop/file2"
+'6  9  2  ~/Desktop/file2
+|4,54,9,2,1646388702,"~/Desktop/file2"
+'7  1  0  ~/Desktop/file2
+|4,55,1,0,1646388426,"~/Desktop/file2"
+'8  1  0  ~/Desktop/file2
+|4,56,1,0,1646388426,"~/Desktop/file2"
+'9  1  0  ~/Desktop/file2
+|4,57,1,0,1646388426,"~/Desktop/file2"
 
 # Jumplist (newest first):
--'  1  24  ~/suresh
-|4,39,1,24,1645711755,"~/suresh"
--'  1  18  ~/file3
-|4,39,1,18,1645696771,"~/file3"
--'  1  18  ~/file3
-|4,39,1,18,1645696771,"~/file3"
--'  2  0  ~/file2
-|4,39,2,0,1645696389,"~/file2"
--'  2  0  ~/file2
-|4,39,2,0,1645696389,"~/file2"
--'  2  0  ~/file2
-|4,39,2,0,1645696389,"~/file2"
--'  2  0  ~/file2
-|4,39,2,0,1645696389,"~/file2"
--'  1  0  ~/file2
-|4,39,1,0,1645696357,"~/file2"
--'  1  0  ~/file2
-|4,39,1,0,1645696357,"~/file2"
--'  1  0  ~/file2
-|4,39,1,0,1645696357,"~/file2"
--'  1  0  ~/file2
-|4,39,1,0,1645696357,"~/file2"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
--'  1  34  ~/vijay06
-|4,39,1,34,1645695670,"~/vijay06"
+-'  2  14  ~/vijay1
+|4,39,2,14,1647662313,"~/vijay1"
+-'  1  0  ~/vijay1
+|4,39,1,0,1647662267,"~/vijay1"
+-'  1  0  /tmp/crontab.oge1JS
+|4,39,1,0,1646551624,"/tmp/crontab.oge1JS"
+-'  1  0  /tmp/crontab.oge1JS
+|4,39,1,0,1646551624,"/tmp/crontab.oge1JS"
+-'  63  25  /etc/ssh/sshd_config
+|4,39,63,25,1646544102,"/etc/ssh/sshd_config"
+-'  63  25  /etc/ssh/sshd_config
+|4,39,63,25,1646544102,"/etc/ssh/sshd_config"
+-'  63  25  /etc/ssh/sshd_config
+|4,39,63,25,1646544102,"/etc/ssh/sshd_config"
+-'  63  25  /etc/ssh/sshd_config
+|4,39,63,25,1646544102,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1646544019,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1646544019,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1646544019,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1646544019,"/etc/ssh/sshd_config"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  8  0  /etc/ssh
+|4,39,8,0,1646543978,"/etc/ssh"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  32  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,32,0,1646477806,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  1  0  /etc/yum.repos.d/amzn2-core.repo
+|4,39,1,0,1646477796,"/etc/yum.repos.d/amzn2-core.repo"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  0  ~/Desktop/file2
+|4,39,9,0,1646388774,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
+-'  9  2  ~/Desktop/file2
+|4,39,9,2,1646388702,"~/Desktop/file2"
 
 # History of marks within files (newest to oldest):
+
+> ~/vijay1
+	*	1647662307	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	2	14
+
+> /tmp/crontab.oge1JS
+	*	1646551618	0
+	"	1	0
+
+> /etc/ssh/sshd_config
+	*	1646544095	0
+	"	63	25
+	^	63	26
+	.	63	25
+	+	63	25
+
+> /etc/yum.repos.d/amzn2-core.repo
+	*	1646477802	0
+	"	32	0
+
+> ~/Desktop/file2
+	*	1646388770	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	12	6
+	+	1	1
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	7	1
+	+	8	1
+	+	10	1
+	+	11	1
+	+	12	0
+	+	11	0
+	+	10	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	1	0
+	+	2	0
+	+	1	3
+	+	9	0
+
+> ~/Desktop/cat
+	*	1646387911	0
+	"	10	8
+	^	10	9
+	.	10	8
+	+	10	8
+
+> ~/testing/pipefolder/pipefolder
+	*	1646387057	0
+	"	8	0
+	^	8	0
+	.	7	6
+	+	7	6
+
+> ~/testing/read1
+	*	1646386862	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/file1
+	*	1646380067	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
 
 > ~/suresh
 	*	1645711750	0
