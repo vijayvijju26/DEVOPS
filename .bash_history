@@ -1,28 +1,3 @@
-yum install git -y
-git --version
-ll
-ls -al
-git init .
-ls -al
-clear
-touch vijay06
-ll
-vim vijay06
-cat vijay06
-ll
-ls -al
-git status
-git add vijay06
-git commit -m "first commit" vijay06
-git log
-touch file2
-ll
-vim file2
-cat file2
-ll
-ls -al
-git status
-git add file2
 git commit -m "second commit" .
 git log
 git status
@@ -961,3 +936,65 @@ git checkout master
 git branch
 ll
 sudo -i
+ls
+cat apache-tomcat-10.0.17/
+cd apache-tomcat-10.0.17/
+ls
+cd ../
+pwd
+ls
+cat vijay1 
+cal
+git branch
+git status
+git add .
+git status
+git commit -m "recentely commited all data" 
+git status
+git log
+git status
+git checkout branch1
+git branch
+ls
+git log
+git push -u origin branch1
+git push -u origin master
+ls
+cat suresh
+rm suresh
+ls
+cat file2
+cat vijay06
+git branch
+git checkout master
+git branch
+ls
+git checkout branch2
+ls
+pwd
+git log
+git checkout master
+ll
+ls
+ls -ltr
+cat vijay1 
+clear
+ls -al
+git --version
+pwd
+ll
+ls -al
+java -version
+yum install java-1.8.0-openjdk -y
+java -version
+pwd
+ll
+wget https://mvnrepository.com/artifact/org.apache.maven/maven-project/2.2.1
+ll
+wget https://mvnrepository.com/artifact/org.apache.maven/maven-project/2.2.1
+pwd
+ls
+git status
+git branch
+git log
+git status
